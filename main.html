@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITED CLUB FEDERATION (UCF)</title>
+    <link rel="stylesheet" href="main-styles.css">
+</head>
+<body>
+    <div class="container">
+        <img class="center" src="UCF MAIN GROUP  20240817_173733.jpg" alt="flag_b" width="100" height="100">
+        <h1>UNITED CLUB FEDERATION</h1>
+        <h3>An Online Cricket Community</h3>
+        <div class="navbar">
+            <button class="tablink" onclick="openTab(event, 'League')">League</button>
+            <button class="tablink" onclick="openTab(event, 'About')">About</button>
+        </div>
+
+        <div id="League" class="tabcontent">
+            <h2>UCF Rankings</h2>
+            <div id="Boxes" class="box-container">
+                <!-- Row 1 -->
+                <div class="row">
+                    <h3>Team Ranking</h3>
+                    <div class="box-container">
+                        <div class="box" onclick="location.href='page1.html';">
+                            <div class="box-title">T20I</div>
+                        </div>
+                        <div class="box" onclick="location.href='page2.html';">
+                            <div class="box-title">ODI</div>
+                        </div>
+                        <div class="box" onclick="location.href='page3.html';">
+                            <div class="box-title">TEST</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="row">
+                    <h3>Player Ranking/Batting</h3>
+                    <div class="box-container">
+                        <div class="box" onclick="location.href='page4.html';">
+                            <div class="box-title">T20I</div>
+                        </div>
+                        <div class="box" onclick="location.href='page5.html';">
+                            <div class="box-title">ODI</div>
+                        </div>
+                        <div class="box" onclick="location.href='page6.html';">
+                            <div class="box-title">TEST</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row">
+                    <h3>Player Ranking/Bowling</h3>
+                    <div class="box-container">
+                        <div class="box" onclick="location.href='page7.html';">
+                            <div class="box-title">T20I</div>
+                        </div>
+                        <div class="box" onclick="location.href='page8.html';">
+                            <div class="box-title">ODI</div>
+                        </div>
+                        <div class="box" onclick="location.href='page9.html';">
+                            <div class="box-title">TEST</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="row">
+                    <h3>Player Ranking/All Rounder</h3>
+                    <div class="box-container">
+                        <div class="box" onclick="location.href='page10.html';">
+                            <div class="box-title">T20I</div>
+                        </div>
+                        <div class="box" onclick="location.href='page11.html';">
+                            <div class="box-title">ODI</div>
+                        </div>
+                        <div class="box" onclick="location.href='page12.html';">
+                            <div class="box-title">TEST</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="About" class="tabcontent">
+            <h2>About the League</h2>
+            <p>This section contains information about the cricket league.</p>
+        </div>
+    </div>
+    <script src="main-script.js"></script>
+</body>
+</html>
