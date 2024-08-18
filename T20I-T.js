@@ -2,16 +2,16 @@ document.addEventListener('DOMContentLoaded', function () {
     // Simulated CSV content (replace with the actual content of your CSV file)
     const csvData = `
     Team Name,Rating,Flag
-    INDIA,100,flags/flag_a.png
-    ENGLAND,90,flags/flag_b.png
-    NEW ZEALAND,88,flags/flag_c.png
-    BANGLADESH,82,flags/flag_d.png
-    AUSTRALIA,87,flags/flag_e.png
-    PAKISTAN,89,flags/flag_f.png
-    SOUTH AFRICA,86,flags/flag_g.png
-    SRILANKA,84,flags/flag_h.png
-    WEST INDIES,83,flags/flag_i.png
-    AFGANISTAN,81,flags/flag_j.png
+    INDIA,215.5,flags/flag_a.png
+    ENGLAND,200.5,flags/flag_b.png
+    NEW ZEALAND,-138,flags/flag_c.png
+    BANGLADESH,460.5,flags/flag_d.png
+    AUSTRALIA,346,flags/flag_e.png
+    PAKISTAN,293,flags/flag_f.png
+    SOUTH AFRICA,409.5,flags/flag_g.png
+    SRILANKA,-208,flags/flag_h.png
+    WEST INDIES,255.5,flags/flag_i.png
+    AFGANISTAN,314,flags/flag_j.png
     `.trim();
 
     // Parse the CSV data
